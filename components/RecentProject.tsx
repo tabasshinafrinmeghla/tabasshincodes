@@ -5,7 +5,7 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const RecentProject = () => {
   return (
-    <div className='py-20 id="projects" '>
+    <div className='py-20 ' id="projects">
       <h1 className="heading">
         A curated showcase of my{' '}
         <span className='text-purple'>.recent work</span>
@@ -15,19 +15,22 @@ const RecentProject = () => {
           projects.map(({ id, title, des, img, iconLists, link }) => (
             <div className='lg:min-h-[32.5rem] sm:h-[41rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[90vw] ' key={id}>
               <PinContainer title={title} href={link}>
-                <div className='relative flex items-center sm:w-[570px] w-[80vw] overflow-hidden  mb-10 sm:h-40vh h-[30vh]'>
+                <div className="relative flex items-center sm:w-[570px] w-[80vw] overflow-hidden mb-10 sm:h-40vh h-[30vh]">
                   <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                     <img src="/bg.png" alt="bg-img" />
                   </div>
-                  <img src={img} alt={title} className='z-10 absolute bottom-0' />
+                  <img src={img} alt={title} className="z-10 absolute bottom-0" />
                 </div>
-                <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>
+
+                <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                   {title}
                 </h1>
-                <p className='lg:text-xl lg:font-normal font-light text-sm line-clamp-2'>
+
+                <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
                   {des}
                 </p>
-                <div className='flex items-center justify-between mt-7 mb-3'>
+
+                <div className="flex items-center justify-between mt-7 mb-3">
                   <div className="flex items-center">
                     {iconLists.map((icon, index) => (
                       <div
@@ -41,6 +44,7 @@ const RecentProject = () => {
                       </div>
                     ))}
                   </div>
+
                   <div className="flex justify-center items-center">
                     <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                       Check Live Site

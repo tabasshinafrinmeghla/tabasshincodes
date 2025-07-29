@@ -1,5 +1,4 @@
 
-
 "use client";
 import React from "react";
 
@@ -10,21 +9,21 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span> to design
+        Next <span className="text-purple">Vision</span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4  w-full mx-auto px-8">
-        <Card title="Planning & Strateg"
+        <Card title="Become a Full-Stack Developer"
           icon={<AceternityIcon order="Phase 1" />}
-          description="I like to keep things simple and elegant. I believe that less is more, and I try to keep my designs clean and minimalistic.">
+          description="Master backend technologies like Node.js and MongoDB to build complete, scalable applications.">
 
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Nisha is Munni"
+        <Card title="Contribute to Open Source"
           icon={<AceternityIcon order="Phase 2" />}
-          description="I like to keep things simple and elegant. I believe that less is more, and I try to keep my designs clean and minimalistic.">
+          description="Actively collaborate on open-source projects to grow my skills and give back to the dev community.">
 
           <CanvasRevealEffect
             animationSpeed={3}
@@ -37,8 +36,8 @@ const Approach = () => {
           />
 
         </Card>
-        <Card title="Munni is Aditi" icon={<AceternityIcon order="Phase 3" />}
-          description="I like to keep things simple and elegant. I believe that less is more, and I try to keep my designs clean and minimalistic.">
+        <Card title="Land a Role at a Global Tech Company" icon={<AceternityIcon order="Phase 3" />}
+          description="Join a forward-thinking organization where I can work on impactful projects and grow with a dynamic team.">
 
           <CanvasRevealEffect
             animationSpeed={3}
