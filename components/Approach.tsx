@@ -2,7 +2,7 @@
 "use client";
 import React from "react";
 
-import { AnimatePresence, motion } from "motion/react";
+import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
 
 const Approach = () => {
@@ -140,3 +140,5 @@ export const Icon = ({ className, ...rest }: React.SVGProps<SVGSVGElement>) => {
 
 
 export default Approach;
+
+// add
